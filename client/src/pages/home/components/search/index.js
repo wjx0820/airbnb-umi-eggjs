@@ -6,12 +6,13 @@ import dayjs from 'dayjs';
 
 function Search(props) {
   // console.log('search render');
-  const [citys, setCitys] = useState([
-    [
-      { label: '杭州', value: '10001' },
-      { label: '苏州', value: '10002' },
-    ],
-  ]);
+  // const [citys, setCitys] = useState([
+  //   [
+  //     { label: '杭州', value: '10001' },
+  //     { label: '苏州', value: '10002' },
+  //   ],
+  // ]);
+
   const [selectedCity, setSelectedCity] = useState(['10001']);
   const [times, setTimes] = useState('可选时间');
   const [dateShow, setDateShow] = useState(false);
@@ -56,10 +57,10 @@ function Search(props) {
     <div className="search">
       {/**可选城市 */}
       <div className="search-addr">
-        {
+        {!props.cityLoading && (
           <Picker
             title="城市"
-            data={citys}
+            data={props.city}
             value={selectedCity}
             cascade={false}
             cols={1}
@@ -67,7 +68,7 @@ function Search(props) {
           >
             <List.Item>可选城市</List.Item>
           </Picker>
-        }
+        )}
       </div>
       {/**可选时间 */}
       <div className="search-time" onClick={handleDate}>
