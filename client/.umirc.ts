@@ -31,11 +31,11 @@ export default defineConfig({
         //   component: './user/edit',
         //   title: '设置用户',
         // },
-        // {
-        //   path: '/search',
-        //   component: './search/index',
-        //   title: '搜索',
-        // },
+        {
+          path: '/search',
+          component: './search/index',
+          title: '搜索',
+        },
         // {
         //   path: '/observer',
         //   component: './observer',

@@ -1,8 +1,8 @@
 import React, { useState, useEffect, memo } from 'react';
 import { Picker, List, Calendar, Button, Toast } from 'antd-mobile';
 import dayjs from 'dayjs';
-// import { useHttpHook } from '@/hooks';
-// import { history } from 'umi';
+import { useHttpHook } from '@/hooks';
+import { history } from 'umi';
 
 function Search(props) {
   // console.log('search render');
@@ -36,20 +36,20 @@ function Search(props) {
     );
   };
 
-  // const handleClick = () => {
-  //   if (times.includes('~')) {
-  //     history.push({
-  //       pathname: '/search',
-  //       query: {
-  //         code: selectedCity,
-  //         startTime: times.split('~')[0],
-  //         endTime: times.split('~')[1],
-  //       },
-  //     });
-  //   } else {
-  //     Toast.fail('请选择时间');
-  //   }
-  // };
+  const handleClick = () => {
+    if (times.includes('~')) {
+      history.push({
+        pathname: '/search',
+        query: {
+          code: selectedCity,
+          startTime: times.split('~')[0],
+          endTime: times.split('~')[1],
+        },
+      });
+    } else {
+      Toast.fail('请选择时间');
+    }
+  };
 
   useEffect(() => {}, []);
 
@@ -76,7 +76,7 @@ function Search(props) {
         <p className="search-time_right">{times}</p>
       </div>
       {/**点击按钮 */}
-      <Button type="warning" size="large">
+      <Button type="warning" size="large" onClick={handleClick}>
         搜索民宿
       </Button>
       <Calendar
