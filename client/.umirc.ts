@@ -26,11 +26,11 @@ export default defineConfig({
           title: '我的',
           auth: true,
         },
-        // {
-        //   path: '/user/edit',
-        //   component: './user/edit',
-        //   title: '设置用户',
-        // },
+        {
+          path: '/user/edit',
+          component: './user/edit',
+          title: '设置用户',
+        },
         {
           path: '/search',
           component: './search/index',
