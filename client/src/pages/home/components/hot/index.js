@@ -2,6 +2,7 @@ import React, { useState, useEffect, memo } from 'react';
 import { history } from 'umi';
 
 function Hot(props) {
+  console.log('hot');
   const handleClick = id => {
     history.push({
       pathname: '/house',
