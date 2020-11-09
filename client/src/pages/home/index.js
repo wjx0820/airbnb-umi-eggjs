@@ -9,10 +9,10 @@ import './index.less';
 export default function(props) {
   const [state, setState] = useState();
 
-  const [city, cityLoading] = useHttpHook({
-    url: '/commons/city',
+  const [citys, citysLoading] = useHttpHook({
+    url: '/commons/citys',
   });
-  const [house] = useHttpHook({
+  const [houses] = useHttpHook({
     url: '/house/hot',
   });
 
@@ -23,9 +23,9 @@ export default function(props) {
       {/**header登录 */}
       <Header />
       {/**搜索 */}
-      <Search city={city} cityLoading={cityLoading} />
+      <Search citys={citys} citysLoading={citysLoading} />
       {/**热门民宿 */}
-      <Hot house={house} />
+      <Hot houses={houses} />
     </div>
   );
 }

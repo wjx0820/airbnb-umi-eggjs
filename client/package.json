@@ -25,9 +25,12 @@
     "@umijs/test": "^3.2.25",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
+    "project-libs": "^1.1.4",
     "react": "^16.12.0",
+    "react-awesome-swiper": "^1.4.16",
     "react-dom": "^16.12.0",
     "react-icons": "^3.11.0",
+    "think-react-store": "^1.6.6",
     "umi": "^3.2.25",
     "yorkie": "^2.0.0"
   }

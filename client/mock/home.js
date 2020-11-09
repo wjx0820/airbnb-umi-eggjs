@@ -1,5 +1,5 @@
 export default {
-  'post /api/commons/city': (req, res) => {
+  'post /api/commons/citys': (req, res) => {
     res.json({
       status: 200,
       data: [

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, memo } from 'react';
 import { Link } from 'umi';
-// import { cookie } from 'project-libs';
+import { cookie } from 'project-libs';
 
 function Header(props) {
   const [state, setState] = useState();
@@ -14,7 +14,13 @@ function Header(props) {
     <div className="header">
       <div className="header_title">民宿</div>
       <div className="header_login">
-        <Link to="/login"> 登录</Link> | <Link to="/register"> 注册</Link>
+        {cookie.get('user') ? (
+          cookie.get('user').username
+        ) : (
+          <>
+            <Link to="/login">登录</Link> | <Link to="/register">注册</Link>
+          </>
+        )}
       </div>
     </div>
   );
