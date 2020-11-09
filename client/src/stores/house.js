@@ -7,26 +7,26 @@ export default {
     comments: [],
     page: CommonEnum.PAGE,
     showLoading: true,
-    reloadCommentsNum: 0
+    reloadCommentsNum: 0,
   },
   reducers: {
     getDetail(state, payload) {
       return {
         ...state,
-        detail: payload
-      }
+        detail: payload,
+      };
     },
     getComments(state, payload) {
       return {
         ...state,
-        comments: payload
-      }
+        comments: payload,
+      };
     },
     setShowLoading(state, payload) {
       return {
         ...state,
-        showLoading: payload
-      }
+        showLoading: payload,
+      };
     },
     reloadComments(state, payload) {
       return {
@@ -34,9 +34,9 @@ export default {
         reloadCommentsNum: state.reloadCommentsNum + 1,
         page: {
           ...CommonEnum.PAGE,
-          pageNum: state.page.pageNum + 1
-        }
-      }
+          pageNum: state.page.pageNum + 1,
+        },
+      };
     },
     resetData(state, payload) {
       return {
@@ -46,19 +46,19 @@ export default {
         page: CommonEnum.PAGE,
         showLoading: true,
         reloadCommentsNum: 0,
-        ...payload
-      }
-    }
+        ...payload,
+      };
+    },
   },
   effects: {
     async getDetailAsync(dispatch, rootState, payload) {
       const detail = await Http({
         url: '/house/detail',
-        body: payload
+        body: payload,
       });
       dispatch({
         type: 'getDetail',
-        payload: detail
+        payload: detail,
       });
     },
     async getCommentsAsync(dispatch, rootState, payload) {
@@ -68,29 +68,29 @@ export default {
         body: {
           ...payload,
           pageSize: page.pageSize,
-          pageNum: page.pageNum
-        }
+          pageNum: page.pageNum,
+        },
       });
       dispatch({
         type: 'getComments',
-        payload: [...comments, ...lists]
+        payload: [...comments, ...lists],
       });
       dispatch({
         type: 'setShowLoading',
-        payload: lists.length ? true : false
+        payload: lists.length ? true : false,
       });
     },
     async addCommentsAsync(dispatch, rootState, payload) {
       const result = await Http({
         url: '/comments/add',
-        body: payload
+        body: payload,
       });
       if (result) {
         dispatch({
           type: 'resetData',
-          payload: {}
+          payload: {},
         });
       }
-    }
-  }
+    },
+  },
 };

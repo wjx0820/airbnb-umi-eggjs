@@ -4,10 +4,9 @@ import { cookie } from 'project-libs';
 
 function Header(props) {
   const [state, setState] = useState();
-  console.log('header render');
 
   useEffect(() => {
-    // console.log(cookie.get('user'))
+    console.log(cookie.get('user'));
   }, []);
 
   return (

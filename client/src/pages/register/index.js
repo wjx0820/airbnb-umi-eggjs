@@ -64,7 +64,7 @@ function Register(props) {
           确认密码：
         </InputItem>
       </List>
-      <Button type="warning" onClick={handleSubmit}>
+      <Button type="primary" onClick={handleSubmit}>
         注册
       </Button>
       <div className="login" onClick={handleClick}>

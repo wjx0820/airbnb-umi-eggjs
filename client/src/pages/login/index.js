@@ -50,7 +50,7 @@ function Login(props) {
           密码：
         </InputItem>
       </List>
-      <Button type="warning" onClick={handleSubmit}>
+      <Button type="primary" onClick={handleSubmit}>
         登录
       </Button>
       <div className="register" onClick={handleClick}>

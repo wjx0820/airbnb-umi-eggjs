@@ -5,7 +5,6 @@ import { useHttpHook } from '@/hooks';
 import { history } from 'umi';
 
 function Search(props) {
-  console.log('search render');
   // const [citys, setCitys] = useState([[{ label: '杭州', value: '10001' }, { label: '苏州', value: '10002' }]]);
   const [selectedCity, setSelectedCity] = useState(['10001']);
   const [times, setTimes] = useState('可选时间');
