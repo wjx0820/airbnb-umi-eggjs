@@ -46,6 +46,7 @@ function Login(props) {
             rules: [{ required: true }],
           })}
           placeholder="密码"
+          type="password"
         >
           密码：
         </InputItem>

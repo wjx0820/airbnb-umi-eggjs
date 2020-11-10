@@ -73,5 +73,14 @@ export default {
         Toast.success('注册成功');
       }
     },
+    async logoutAsync(dispatch, rootState, payload) {
+      await Http({
+        url: '/user/logout',
+        body: payload,
+      });
+      Toast.success('退出登录成功');
+      localStorage.clear();
+      location.href = '/login?from=' + location.pathname;
+    },
   },
 };
