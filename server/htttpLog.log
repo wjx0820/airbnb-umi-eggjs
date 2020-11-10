@@ -60,3 +60,11 @@
 2020-11-10 18:00:48 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test2","password":"1234"},"startTime":"2020-11-10 18:00:48","endTime":"2020-11-10 18:00:48","timeLength":11}
 2020-11-10 18:00:48 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-10 18:00:48","endTime":"2020-11-10 18:00:48","timeLength":8}
 2020-11-10 18:00:57 [httpLog] {"method":"POST","url":"/api/user/logout","data":{},"startTime":"2020-11-10 18:00:57","endTime":"2020-11-10 18:00:57","timeLength":0}
+2020-11-10 19:10:13 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-10 19:10:13","endTime":"2020-11-10 19:10:13","timeLength":9}
+2020-11-10 19:11:31 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-10 19:11:31","endTime":"2020-11-10 19:11:31","timeLength":2}
+2020-11-10 19:18:52 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 19:18:52","endTime":"2020-11-10 19:18:52","timeLength":12}
+2020-11-10 19:19:05 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test2","password":"1234"},"startTime":"2020-11-10 19:19:05","endTime":"2020-11-10 19:19:05","timeLength":12}
+2020-11-10 19:20:02 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 19:20:02","endTime":"2020-11-10 19:20:02","timeLength":11}
+2020-11-10 19:20:32 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 19:20:32","endTime":"2020-11-10 19:20:32","timeLength":10}
+2020-11-10 19:24:17 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 19:24:17","endTime":"2020-11-10 19:24:17","timeLength":17}
+2020-11-10 19:24:40 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 19:24:40","endTime":"2020-11-10 19:24:40","timeLength":11}

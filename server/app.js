@@ -1,18 +1,17 @@
-module.exports = app => {
-  
+module.exports = (app) => {
   const store = {};
   app.sessionStore = {
-    async get(key){
-      console.log("--store--", store)
+    async get(key) {
+      console.log("--store--", store);
       return store[key];
     },
-    async set(key, value, maxAge){
+    async set(key, value, maxAge) {
       store[key] = value;
     },
-    async destroy(key){
+    async destroy(key) {
       store[key] = null;
-    }
+    },
   };
 
-  // app.config.coreMiddleware.push('auth');
-}
+  app.config.coreMiddleware.push("auth");
+};
