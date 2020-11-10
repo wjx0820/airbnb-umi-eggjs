@@ -24,3 +24,16 @@
 2020-11-10 16:17:24 [httpLog] {"method":"POST","url":"/api/user/register","data":{"username":"test15","password":"1234"},"startTime":"2020-11-10 16:17:24","endTime":"2020-11-10 16:17:24","timeLength":28}
 2020-11-10 16:17:53 [httpLog] {"method":"POST","url":"/api/user/login","data":{},"startTime":"2020-11-10 16:17:53","endTime":"2020-11-10 16:17:53","timeLength":3}
 2020-11-10 16:18:48 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test15","password":"1234"},"startTime":"2020-11-10 16:18:48","endTime":"2020-11-10 16:18:48","timeLength":14}
+2020-11-10 16:29:07 [httpLog] {"method":"POST","url":"/api/user/register","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 16:29:07","endTime":"2020-11-10 16:29:07","timeLength":29}
+2020-11-10 16:29:17 [httpLog] {"method":"POST","url":"/api/user/login","data":{},"startTime":"2020-11-10 16:29:17","endTime":"2020-11-10 16:29:17","timeLength":2}
+2020-11-10 16:29:30 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 16:29:30","endTime":"2020-11-10 16:29:30","timeLength":10}
+2020-11-10 16:37:59 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 16:37:59","endTime":"2020-11-10 16:37:59","timeLength":12}
+2020-11-10 16:45:41 [httpLog] {"method":"POST","url":"/api/user/register","data":{"username":"test2","password":"1234"},"startTime":"2020-11-10 16:45:41","endTime":"2020-11-10 16:45:41","timeLength":39}
+2020-11-10 16:49:07 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-10 16:49:07","endTime":"2020-11-10 16:49:07","timeLength":0}
+2020-11-10 16:49:07 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-10 16:49:07","endTime":"2020-11-10 16:49:07","timeLength":0}
+2020-11-10 16:50:00 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-10 16:50:00","endTime":"2020-11-10 16:50:00","timeLength":0}
+2020-11-10 16:50:00 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-10 16:50:00","endTime":"2020-11-10 16:50:00","timeLength":0}
+2020-11-10 16:53:06 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 16:53:06","endTime":"2020-11-10 16:53:06","timeLength":9}
+2020-11-10 16:53:15 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test2","password":"123"},"startTime":"2020-11-10 16:53:15","endTime":"2020-11-10 16:53:15","timeLength":4}
+2020-11-10 16:53:20 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test2","password":"1234"},"startTime":"2020-11-10 16:53:20","endTime":"2020-11-10 16:53:20","timeLength":3}
+2020-11-10 16:56:01 [httpLog] {"method":"POST","url":"/api/user/register","data":{"username":"test3","password":"4321","password2":"4321"},"startTime":"2020-11-10 16:56:01","endTime":"2020-11-10 16:56:01","timeLength":21}

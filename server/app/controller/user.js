@@ -4,8 +4,12 @@ const Controller = require("egg").Controller;
 const md5 = require("md5");
 
 class UserController extends Controller {
-  async index() {
-    this.ctx.body = "Hello world";
+  async jwtSign() {
+    const { ctx, app } = this;
+    const username = ctx.request.body.username;
+    const token = app.jwt.sign({ username }, app.config.jwt.secret);
+    ctx.session.username = 1;
+    return token;
   }
 
   async register() {
@@ -27,11 +31,14 @@ class UserController extends Controller {
       createTime: ctx.helper.time(),
     });
     if (result) {
+      const token = await this.jwtSign();
+
       ctx.body = {
         status: 200,
         data: {
           ...ctx.helper.unPick(result.dataValues, ["password"]),
           createTime: ctx.helper.timestamp(result.createTime),
+          token,
         },
       };
     } else {
@@ -48,12 +55,15 @@ class UserController extends Controller {
     const user = await ctx.service.user.getUser(username, password);
 
     if (user) {
-      ctx.session.userId = user.index;
+      const token = await this.jwtSign();
+
+      ctx.session.username = 1;
       ctx.body = {
         status: 200,
         data: {
           ...ctx.helper.unPick(user.dataValues, ["password"]),
           createTime: ctx.helper.timestamp(user.createTime),
+          token,
         },
       };
     } else {
