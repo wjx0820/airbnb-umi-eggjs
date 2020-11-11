@@ -74,3 +74,11 @@
 2020-11-10 20:07:14 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test2","password":"1234"},"startTime":"2020-11-10 20:07:14","endTime":"2020-11-10 20:07:14","timeLength":18}
 2020-11-10 20:07:14 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-10 20:07:14","endTime":"2020-11-10 20:07:14","timeLength":8}
 2020-11-10 20:08:17 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-10 20:08:17","endTime":"2020-11-10 20:08:17","timeLength":12}
+2020-11-11 09:12:36 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test3","password":"4321"},"startTime":"2020-11-11 09:12:36","endTime":"2020-11-11 09:12:36","timeLength":17}
+2020-11-11 09:12:36 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-11 09:12:36","endTime":"2020-11-11 09:12:36","timeLength":9}
+2020-11-11 09:28:08 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-11 09:28:08","endTime":"2020-11-11 09:28:08","timeLength":11}
+2020-11-11 09:28:08 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-11 09:28:08","endTime":"2020-11-11 09:28:08","timeLength":13}
+2020-11-11 09:37:17 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-11 09:37:17","endTime":"2020-11-11 09:37:17","timeLength":46}
+2020-11-11 09:37:19 [httpLog] {"method":"POST","url":"/api/user/logout","data":{},"startTime":"2020-11-11 09:37:19","endTime":"2020-11-11 09:37:19","timeLength":2}
+2020-11-11 09:37:28 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-11 09:37:28","endTime":"2020-11-11 09:37:28","timeLength":10}
+2020-11-11 09:37:28 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-11 09:37:28","endTime":"2020-11-11 09:37:28","timeLength":16}
