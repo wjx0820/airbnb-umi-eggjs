@@ -10,7 +10,10 @@ module.exports = (app) => {
     orderNumber: STRING(20),
     userId: INTEGER,
     houseId: INTEGER,
-    isPayed: INTEGER,
+    isPayed: {
+      type: INTEGER,
+      defaultValue: 0,
+    },
     createTime: {
       type: DATE,
       get() {
