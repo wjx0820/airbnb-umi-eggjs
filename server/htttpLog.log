@@ -68,3 +68,9 @@
 2020-11-10 19:20:32 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 19:20:32","endTime":"2020-11-10 19:20:32","timeLength":10}
 2020-11-10 19:24:17 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 19:24:17","endTime":"2020-11-10 19:24:17","timeLength":17}
 2020-11-10 19:24:40 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 19:24:40","endTime":"2020-11-10 19:24:40","timeLength":11}
+2020-11-10 20:05:08 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 20:05:08","endTime":"2020-11-10 20:05:08","timeLength":16}
+2020-11-10 20:05:33 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-10 20:05:33","endTime":"2020-11-10 20:05:33","timeLength":10}
+2020-11-10 20:05:33 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-10 20:05:33","endTime":"2020-11-10 20:05:33","timeLength":7}
+2020-11-10 20:07:14 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test2","password":"1234"},"startTime":"2020-11-10 20:07:14","endTime":"2020-11-10 20:07:14","timeLength":18}
+2020-11-10 20:07:14 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-10 20:07:14","endTime":"2020-11-10 20:07:14","timeLength":8}
+2020-11-10 20:08:17 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-10 20:08:17","endTime":"2020-11-10 20:08:17","timeLength":12}

@@ -8,7 +8,8 @@ class UserController extends Controller {
     const { ctx, app } = this;
     const username = ctx.request.body.username;
     const token = app.jwt.sign({ username }, app.config.jwt.secret);
-    ctx.session.username = 1;
+    // ctx.session.username = 1;
+    await app.redis.set(username, 1, "EX", app.config.redisExpire);
     return token;
   }
 
@@ -94,9 +95,9 @@ class UserController extends Controller {
     }
   }
   async logout() {
-    const { ctx } = this;
+    const { ctx, app } = this;
     try {
-      ctx.session[ctx.username] = null;
+      await app.redis.del(ctx.username);
       ctx.body = {
         status: 200,
         data: "ok",
