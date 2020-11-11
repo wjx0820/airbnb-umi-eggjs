@@ -5,9 +5,9 @@ import { useHttpHook, useObserverHook } from '@/hooks';
 import { CommonEnum } from '@/enums';
 import { Http } from '@/utils';
 import { isEmpty } from 'project-libs';
+import { ErrorBoundary } from '@/components';
 
 import './index.less';
-import order from '../../../mock/order';
 
 export default function(props) {
   const [page, setPage] = useState(CommonEnum.PAGE);
@@ -23,7 +23,7 @@ export default function(props) {
 
   const invokeHttp = async pageNum => {
     const result = await Http({
-      url: '/order/lists',
+      url: '/orders/lists',
       body: {
         ...page,
         pageNum,
@@ -35,7 +35,7 @@ export default function(props) {
 
   const fetchOrder = async pageNum => {
     const result = await invokeHttp(pageNum);
-    if (!isEmpty(result) && result.length === page.pageSize) {
+    if (!isEmpty(result) && result.length <= page.pageSize) {
       setOrders(result);
       setShowLoading(true);
     } else {
@@ -92,15 +92,17 @@ export default function(props) {
   }, [type]);
 
   return (
-    <div className="order-page">
-      <Tabs tabs={tabs} onChange={handleChange}>
-        <div className="tab">
-          <Lists orders={orders} type={0} showLoading={showLoading} />
-        </div>
-        <div className="tab">
-          <Lists orders={orders} type={1} showLoading={showLoading} />
-        </div>
-      </Tabs>
-    </div>
+    <ErrorBoundary>
+      <div className="order-page">
+        <Tabs tabs={tabs} onChange={handleChange}>
+          <div className="tab">
+            <Lists orders={orders} type={0} showLoading={showLoading} />
+          </div>
+          <div className="tab">
+            <Lists orders={orders} type={1} showLoading={showLoading} />
+          </div>
+        </Tabs>
+      </div>
+    </ErrorBoundary>
   );
 }
