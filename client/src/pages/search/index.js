@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { SearchBar, ActivityIndicator } from 'antd-mobile';
 import { useHttpHook, useObserverHook, useImgHook } from '@/hooks';
+import { history } from 'umi';
 import { useLocation } from 'umi';
 import { ShowLoading } from '@/components';
 import { CommonEnum } from '@/enums';
@@ -69,6 +70,15 @@ export default function(props) {
     _handleSubmit(value);
   };
 
+  const handleClick = id => {
+    history.push({
+      pathname: '/house',
+      query: {
+        id,
+      },
+    });
+  };
+
   useEffect(() => {
     if (!loading && houses) {
       if (houses.length) {
@@ -98,7 +108,11 @@ export default function(props) {
       ) : (
         <div className="result">
           {houseLists.map(item => (
-            <div className="item" key={item.id}>
+            <div
+              className="item"
+              key={item.id}
+              onClick={() => handleClick(item.id)}
+            >
               <img
                 alt="img"
                 className="item-img"

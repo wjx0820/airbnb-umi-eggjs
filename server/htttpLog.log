@@ -445,3 +445,28 @@
 2020-11-11 18:16:43 [httpLog] {"method":"POST","url":"/api/orders/lists","data":{"pageSize":8,"pageNum":2,"type":0},"startTime":"2020-11-11 18:16:43","endTime":"2020-11-11 18:16:43","timeLength":17}
 2020-11-11 18:16:48 [httpLog] {"method":"POST","url":"/api/orders/pay","data":{"id":4},"startTime":"2020-11-11 18:16:48","endTime":"2020-11-11 18:16:48","timeLength":26}
 2020-11-11 18:16:50 [httpLog] {"method":"POST","url":"/api/orders/lists","data":{"pageSize":8,"pageNum":1,"type":0},"startTime":"2020-11-11 18:16:50","endTime":"2020-11-11 18:16:50","timeLength":15}
+2020-11-11 19:43:55 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-11 19:43:55","endTime":"2020-11-11 19:43:55","timeLength":2}
+2020-11-11 19:43:55 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-11 19:43:55","endTime":"2020-11-11 19:43:55","timeLength":53}
+2020-11-11 19:43:58 [httpLog] {"method":"POST","url":"/api/orders/lists","data":{"pageSize":8,"pageNum":1,"type":0},"startTime":"2020-11-11 19:43:58","endTime":"2020-11-11 19:43:58","timeLength":16}
+2020-11-11 19:44:00 [httpLog] {"method":"POST","url":"/api/orders/lists","data":{"pageSize":8,"pageNum":1,"type":1},"startTime":"2020-11-11 19:44:00","endTime":"2020-11-11 19:44:00","timeLength":25}
+2020-11-11 19:44:01 [httpLog] {"method":"POST","url":"/api/orders/lists","data":{"pageSize":8,"pageNum":2,"type":1},"startTime":"2020-11-11 19:44:01","endTime":"2020-11-11 19:44:01","timeLength":10}
+2020-11-11 19:44:02 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-11 19:44:02","endTime":"2020-11-11 19:44:02","timeLength":12}
+2020-11-11 19:44:03 [httpLog] {"method":"POST","url":"/api/user/logout","data":{},"startTime":"2020-11-11 19:44:03","endTime":"2020-11-11 19:44:03","timeLength":2}
+2020-11-11 19:44:10 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test1","password":"1234"},"startTime":"2020-11-11 19:44:10","endTime":"2020-11-11 19:44:10","timeLength":6}
+2020-11-11 19:44:10 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-11 19:44:10","endTime":"2020-11-11 19:44:10","timeLength":17}
+2020-11-11 19:44:16 [httpLog] {"method":"POST","url":"/api/orders/lists","data":{"pageSize":8,"pageNum":1,"type":0},"startTime":"2020-11-11 19:44:16","endTime":"2020-11-11 19:44:16","timeLength":33}
+2020-11-11 19:44:19 [httpLog] {"method":"POST","url":"/api/orders/lists","data":{"pageSize":8,"pageNum":1,"type":1},"startTime":"2020-11-11 19:44:19","endTime":"2020-11-11 19:44:19","timeLength":7}
+2020-11-11 19:44:20 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-11 19:44:20","endTime":"2020-11-11 19:44:20","timeLength":0}
+2020-11-11 19:44:20 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-11 19:44:20","endTime":"2020-11-11 19:44:20","timeLength":12}
+2020-11-11 19:44:28 [httpLog] {"method":"POST","url":"/api/house/search","data":{"pageSize":8,"pageNum":1,"houseName":"","code":["10001"],"startTime":"2020-12-01 00:00:00","endTime":"2020-12-03 23:59:59"},"startTime":"2020-11-11 19:44:28","endTime":"2020-11-11 19:44:28","timeLength":32}
+2020-11-11 19:45:52 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-11 19:45:52","endTime":"2020-11-11 19:45:52","timeLength":0}
+2020-11-11 19:45:52 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-11 19:45:52","endTime":"2020-11-11 19:45:52","timeLength":25}
+2020-11-11 19:47:03 [httpLog] {"method":"POST","url":"/api/house/search","data":{"pageSize":8,"pageNum":1,"houseName":"","code":["10001"],"startTime":"2020-11-12 00:00:00","endTime":"2020-11-27 23:59:59"},"startTime":"2020-11-11 19:47:03","endTime":"2020-11-11 19:47:03","timeLength":22}
+2020-11-11 19:47:25 [httpLog] {"method":"POST","url":"/api/house/search","data":{"pageSize":8,"pageNum":1,"houseName":"","code":["10001"],"startTime":"2020-11-12 00:00:00","endTime":"2020-11-27 23:59:59"},"startTime":"2020-11-11 19:47:25","endTime":"2020-11-11 19:47:25","timeLength":30}
+2020-11-11 19:47:28 [httpLog] {"method":"POST","url":"/api/house/search","data":{"pageSize":8,"pageNum":1,"houseName":"","code":"10001","startTime":"2020-11-12 00:00:00","endTime":"2020-11-27 23:59:59"},"startTime":"2020-11-11 19:47:28","endTime":"2020-11-11 19:47:28","timeLength":11}
+2020-11-11 19:47:28 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-11 19:47:28","endTime":"2020-11-11 19:47:28","timeLength":0}
+2020-11-11 19:47:28 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-11 19:47:28","endTime":"2020-11-11 19:47:28","timeLength":9}
+2020-11-11 19:47:34 [httpLog] {"method":"POST","url":"/api/house/search","data":{"pageSize":8,"pageNum":1,"houseName":"","code":["10001"],"startTime":"2020-11-12 00:00:00","endTime":"2020-11-19 23:59:59"},"startTime":"2020-11-11 19:47:34","endTime":"2020-11-11 19:47:34","timeLength":11}
+2020-11-11 19:47:36 [httpLog] {"method":"POST","url":"/api/comment/lists","data":{"id":13,"pageSize":8,"pageNum":1},"startTime":"2020-11-11 19:47:36","endTime":"2020-11-11 19:47:36","timeLength":30}
+2020-11-11 19:47:36 [httpLog] {"method":"POST","url":"/api/orders/hasOrder","data":{"id":13},"startTime":"2020-11-11 19:47:36","endTime":"2020-11-11 19:47:36","timeLength":26}
+2020-11-11 19:47:36 [httpLog] {"method":"POST","url":"/api/house/detail","data":{"id":13},"startTime":"2020-11-11 19:47:36","endTime":"2020-11-11 19:47:36","timeLength":40}
