@@ -4,7 +4,7 @@
 
 ## Link
 
-http://http://jiexi.xyz/
+http://jiexi.xyz
 
 ## Stack
 
