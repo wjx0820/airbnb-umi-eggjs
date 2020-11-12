@@ -29,7 +29,7 @@ Backend
 
 ![](/screenshot/screenshot2.gif)
 
-![](/screenshot/screenshot2.gif)
+![](/screenshot/screenshot3.gif)
 
 ## TODO
 
