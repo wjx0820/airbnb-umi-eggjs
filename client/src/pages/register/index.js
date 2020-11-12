@@ -26,6 +26,7 @@ function Register(props) {
         registerAsync(value);
       }
     });
+    history.push('/login');
   };
 
   const handleClick = () => {
