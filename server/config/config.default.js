@@ -25,6 +25,11 @@ module.exports = (appInfo) => {
 
   config.allowHosts = ["localhost:8000", "127.0.0.1:8000"];
 
+  config.interfaceLimit = {
+    maxCount: 30, // 最多请求个数
+    time: 3 * 1000, // 间隔时间
+  };
+
   config.security = {
     csrf: {
       enable: false,

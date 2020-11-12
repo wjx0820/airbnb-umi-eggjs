@@ -13,8 +13,9 @@ module.exports = (app) => {
     },
   };
 
-  app.config.coreMiddleware.push("allowHosts");
-  app.config.coreMiddleware.push("notFound");
-  app.config.coreMiddleware.push("auth");
-  console.log("app.config.coreMiddleware", app.config.coreMiddleware);
+  const mids = app.config.coreMiddleware;
+  app.config.coreMiddleware = [
+    ...mids,
+    ...["interfaceLimit", "allowHosts", "notFound", "auth"],
+  ];
 };
