@@ -59,6 +59,7 @@ export default {
         localStorage.setItem('username', result.username);
         urlGet('from') && history.push(urlGet('from'));
         Toast.success('登录成功');
+        history.push('/');
       }
     },
     async registerAsync(dispatch, rootState, payload) {

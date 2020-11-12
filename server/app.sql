@@ -67,24 +67,24 @@ INSERT INTO `house` VALUES
 (15,'老城区民宿','老城区风景秀美','老城区',100,'2020-08-10 13:38:23','10001',0,'2020-08-10 13:37:57','2020-12-10 13:37:57');
 
 INSERT INTO `imgs` VALUES
-(1,'http://img3.mukewang.com/szimg/5d1032ab08719e0906000338-360-202.jpg',1,'2020-08-11 13:37:57'),
-(2,'http://img2.mukewang.com/szimg/5dc9047a09bae31e12000676-360-202.png',1,'2020-08-11 13:37:57'),
-(3,'http://img2.mukewang.com/szimg/5ad05dc00001eae705400300-360-202.jpg',1,'2020-08-11 13:37:57'),
-(4,'http://img1.mukewang.com/szimg/5a1f65a900015d1505400300-360-202.jpg',2,'2020-08-11 13:37:57'),
-(5,'https://img3.mukewang.com/szimg/5f3cdd710925166812000676-360-202.png',2,'2020-08-11 13:37:57'),
-(6,'https://img4.mukewang.com/szimg/5f20e20109429b5f12000676-360-202.png',3,'2020-08-11 13:37:57'),
-(7,'http://img3.mukewang.com/szimg/5d1032ab08719e0906000338-360-202.jpg',4,'2020-08-11 13:37:57'),
-(8,'http://img2.mukewang.com/szimg/5dc9047a09bae31e12000676-360-202.png',5,'2020-08-11 13:37:57'),
-(9,'http://img2.mukewang.com/szimg/5ad05dc00001eae705400300-360-202.jpg',6,'2020-08-11 13:37:57'),
-(10,'http://img1.mukewang.com/szimg/5a1f65a900015d1505400300-360-202.jpg',7,'2020-08-11 13:37:57'),
-(11,'https://img3.mukewang.com/szimg/5f3cdd710925166812000676-360-202.png',8,'2020-08-11 13:37:57'),
-(12,'https://img4.mukewang.com/szimg/5f20e20109429b5f12000676-360-202.png',9,'2020-08-11 13:37:57'),
-(13,'http://img3.mukewang.com/szimg/5d1032ab08719e0906000338-360-202.jpg',10,'2020-08-11 13:37:57'),
-(14,'http://img2.mukewang.com/szimg/5dc9047a09bae31e12000676-360-202.png',11,'2020-08-11 13:37:57'),
-(15,'http://img2.mukewang.com/szimg/5ad05dc00001eae705400300-360-202.jpg',12,'2020-08-11 13:37:57'),
-(16,'http://img1.mukewang.com/szimg/5a1f65a900015d1505400300-360-202.jpg',13,'2020-08-11 13:37:57'),
-(17,'https://img3.mukewang.com/szimg/5f3cdd710925166812000676-360-202.png',14,'2020-08-11 13:37:57'),
-(18,'https://img4.mukewang.com/szimg/5f20e20109429b5f12000676-360-202.png',15,'2020-08-11 13:37:57')
+(1,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-1.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',1,'2020-08-11 13:37:57'),
+(2,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-2.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',1,'2020-08-11 13:37:57'),
+(3,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-3.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',1,'2020-08-11 13:37:57'),
+(4,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-4.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',2,'2020-08-11 13:37:57'),
+(5,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-5.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',2,'2020-08-11 13:37:57'),
+(6,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-6.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',3,'2020-08-11 13:37:57'),
+(7,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-7.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',4,'2020-08-11 13:37:57'),
+(8,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-8.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',5,'2020-08-11 13:37:57'),
+(9,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-9.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',6,'2020-08-11 13:37:57'),
+(10,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-10.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',7,'2020-08-11 13:37:57'),
+(11,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-11.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',8,'2020-08-11 13:37:57'),
+(12,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-12.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',9,'2020-08-11 13:37:57'),
+(13,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-13.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',10,'2020-08-11 13:37:57'),
+(14,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-14.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',11,'2020-08-11 13:37:57'),
+(15,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-15.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',12,'2020-08-11 13:37:57'),
+(16,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-16.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',13,'2020-08-11 13:37:57'),
+(17,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-17.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',14,'2020-08-11 13:37:57'),
+(18,'https://jiexi-image.oss-cn-guangzhou.aliyuncs.com/pic-18.jpg?x-oss-process=image/resize,m_fill,h_202,w_360',15,'2020-08-11 13:37:57')
 ;
 
 -- 订单表
