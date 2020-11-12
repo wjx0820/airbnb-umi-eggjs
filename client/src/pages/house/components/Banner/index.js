@@ -18,7 +18,7 @@ export default function(props) {
     <AwesomeSwiper className="banner" config={config}>
       <div className="swiper-wrapper">
         {props?.banner?.map(item => (
-          <div className="swiper-slide" key={item.id}>
+          <div className="swiper-slide" key={item.url}>
             <img alt="banner" src={item.url} />
           </div>
         ))}

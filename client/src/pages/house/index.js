@@ -50,7 +50,6 @@ export default function(props) {
   useObserverHook(
     '#' + CommonEnum.LOADING_ID,
     entries => {
-      // console.log(entries)
       if (
         comments &&
         comments.length &&

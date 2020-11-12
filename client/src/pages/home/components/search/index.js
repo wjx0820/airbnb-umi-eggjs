@@ -5,15 +5,11 @@ import { useHttpHook } from '@/hooks';
 import { history } from 'umi';
 
 function Search(props) {
-  console.log('search render');
-
-  // const [citys, setCitys] = useState([[{ label: '杭州', value: '10001' }, { label: '苏州', value: '10002' }]]);
   const [selectedCity, setSelectedCity] = useState(['10001']);
   const [times, setTimes] = useState('可选时间');
   const [dateShow, setDateShow] = useState(false);
 
   const handleCityChange = value => {
-    // console.log(value);
     setSelectedCity(value);
   };
 
@@ -22,7 +18,6 @@ function Search(props) {
   };
 
   const handleDateConfirm = (startTime, endTime) => {
-    // console.log(startTime, endTime);
     setDateShow(!dateShow);
     setTimes(
       dayjs(startTime).format('YYYY-MM-DD') +
@@ -71,7 +66,7 @@ function Search(props) {
         <p className="search-time_right">{times}</p>
       </div>
       {/**点击按钮 */}
-      <Button type="warning" size="large" onClick={handleClick}>
+      <Button type="primary" size="large" onClick={handleClick}>
         搜索民宿
       </Button>
       <Calendar
@@ -84,7 +79,6 @@ function Search(props) {
 }
 
 function areEqual(prevProps, nextProps) {
-  // console.log(prevProps, nextProps)
   if (
     prevProps.citys === nextProps.citys &&
     prevProps.citysLoading === nextProps.citysLoading

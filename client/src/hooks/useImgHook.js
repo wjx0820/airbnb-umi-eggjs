@@ -17,7 +17,6 @@ export default function useImgHook(element, callback, watch = []) {
       observer = new IntersectionObserver(entries => {
         callback && callback(entries);
         entries.forEach(item => {
-          // console.log(item);
           if (item.isIntersecting) {
             const dataSrc = item.target.getAttribute('data-src');
             item.target.setAttribute('src', dataSrc);

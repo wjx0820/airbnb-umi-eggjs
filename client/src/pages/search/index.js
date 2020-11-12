@@ -51,7 +51,6 @@ export default function(props) {
   useImgHook('.item-img', entries => {}, null);
 
   const handleChange = value => {
-    // console.log(value)
     setHouseName(value);
   };
 

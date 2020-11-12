@@ -11,7 +11,6 @@ function Edit(props) {
   const [files, setFiles] = useState([{ url: avatar }]);
 
   const handleChange = files => {
-    // console.log(files)
     if (files[0]?.file?.size / 1024 / 1024 > 0.5) {
       Toast.fail('图片大小不能大于0.5M');
       return;
@@ -25,8 +24,6 @@ function Edit(props) {
       return;
     }
     validateFields((error, value) => {
-      // console.log(error)
-      // console.log(files)
       if (error) {
         Toast.fail('请将信息补充完整');
         return;
@@ -41,7 +38,6 @@ function Edit(props) {
   };
 
   useEffect(() => {
-    // console.log(props)
     getUserAsync({});
   }, []);
 

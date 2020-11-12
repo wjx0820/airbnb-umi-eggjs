@@ -4,11 +4,6 @@ import { cookie } from 'project-libs';
 
 function Header(props) {
   const [username] = useState(localStorage.getItem('username'));
-  console.log('header render');
-
-  useEffect(() => {
-    console.log(cookie.get('user'));
-  }, []);
 
   return (
     <div className="header">

@@ -1,6 +1,5 @@
 module.exports = (options) => {
   return async (ctx, next) => {
-    // console.log(ctx.app.router)
     const flag = ctx.app.router.stack.filter((item) => {
       return item.regexp.test(ctx.request.url);
     });

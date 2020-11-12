@@ -17,7 +17,6 @@ export default function(props) {
   };
 
   const handleChange = value => {
-    // console.log(value)
     setCommentsValue(value);
   };
 

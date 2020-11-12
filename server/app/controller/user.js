@@ -39,7 +39,6 @@ class UserController extends BaseController {
       password: md5(parmas.password + app.config.salt),
       createTime: ctx.helper.time(),
     });
-    // console.log(result)
     if (result) {
       const token = await this.jwtSign({
         id: result.id,
