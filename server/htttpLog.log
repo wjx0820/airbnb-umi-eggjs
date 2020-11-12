@@ -509,3 +509,9 @@
 2020-11-12 08:45:47 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-12 08:45:47","endTime":"2020-11-12 08:45:47","timeLength":1}
 2020-11-12 08:45:47 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-12 08:45:47","endTime":"2020-11-12 08:45:47","timeLength":17}
 2020-11-12 08:45:51 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-12 08:45:51","endTime":"2020-11-12 08:45:51","timeLength":11}
+2020-11-12 09:12:17 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test2","password":"1234"},"startTime":"2020-11-12 09:12:17","endTime":"2020-11-12 09:12:17","timeLength":18}
+2020-11-12 09:12:17 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-12 09:12:17","endTime":"2020-11-12 09:12:17","timeLength":1}
+2020-11-12 09:12:17 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-12 09:12:17","endTime":"2020-11-12 09:12:17","timeLength":24}
+2020-11-12 09:12:21 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-12 09:12:21","endTime":"2020-11-12 09:12:21","timeLength":13}
+2020-11-12 09:12:50 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-12 09:12:50","endTime":"2020-11-12 09:12:50","timeLength":17}
+2020-11-12 09:13:09 [httpLog] {"method":"POST","url":"/api/user/detail","data":{"id":10},"startTime":"2020-11-12 09:13:09","endTime":"2020-11-12 09:13:09","timeLength":17}

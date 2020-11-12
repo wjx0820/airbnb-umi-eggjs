@@ -30,6 +30,11 @@ module.exports = (appInfo) => {
     time: 3 * 1000, // 间隔时间
   };
 
+  config.interfaceCache = {
+    expire: 10,
+    include: ["/api/user/detail"],
+  };
+
   config.security = {
     csrf: {
       enable: false,
