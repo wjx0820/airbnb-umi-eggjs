@@ -23,7 +23,12 @@ module.exports = (appInfo) => {
     type: "all",
   };
 
-  config.allowHosts = ["localhost:8000", "127.0.0.1:8000", "47.106.169.112"];
+  config.allowHosts = [
+    "localhost:8000",
+    "127.0.0.1:8000",
+    "47.106.169.112",
+    "jiexi.xyz",
+  ];
 
   config.interfaceLimit = {
     maxCount: 30, // 最多请求个数

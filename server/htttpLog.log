@@ -637,3 +637,5 @@
 2020-11-12 15:15:21 [httpLog] {"method":"POST","url":"/api/user/login","data":{"username":"test6","password":"1234"},"startTime":"2020-11-12 15:15:21","endTime":"2020-11-12 15:15:21","timeLength":9}
 2020-11-12 15:15:21 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-12 15:15:21","endTime":"2020-11-12 15:15:21","timeLength":0}
 2020-11-12 15:15:21 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-12 15:15:21","endTime":"2020-11-12 15:15:21","timeLength":12}
+2020-11-12 15:22:14 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-12 15:22:14","endTime":"2020-11-12 15:22:14","timeLength":5}
+2020-11-12 15:22:14 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-12 15:22:14","endTime":"2020-11-12 15:22:14","timeLength":62}
