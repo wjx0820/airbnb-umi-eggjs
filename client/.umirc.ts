@@ -11,6 +11,9 @@ export default defineConfig({
       'changeOrigin':true
     }
   },
+  history: {
+    type:'hash'
+  },
   routes: [
     {
       path: '/',

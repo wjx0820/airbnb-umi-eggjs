@@ -619,3 +619,5 @@
 2020-11-12 10:03:18 [httpLog] {"method":"POST","url":"/api/orders/hasOrder","data":{"id":"4"},"startTime":"2020-11-12 10:03:18","endTime":"2020-11-12 10:03:18","timeLength":98}
 2020-11-12 10:03:18 [httpLog] {"method":"POST","url":"/api/comment/lists","data":{"id":"4","pageSize":8,"pageNum":1},"startTime":"2020-11-12 10:03:18","endTime":"2020-11-12 10:03:18","timeLength":26}
 2020-11-12 10:03:18 [httpLog] {"method":"POST","url":"/api/comment/lists","data":{"id":"4","pageSize":8,"pageNum":2},"startTime":"2020-11-12 10:03:18","endTime":"2020-11-12 10:03:18","timeLength":9}
+2020-11-12 11:40:12 [httpLog] {"method":"POST","url":"/api/commons/citys","data":{},"startTime":"2020-11-12 11:40:12","endTime":"2020-11-12 11:40:12","timeLength":2}
+2020-11-12 11:40:12 [httpLog] {"method":"POST","url":"/api/house/hot","data":{},"startTime":"2020-11-12 11:40:12","endTime":"2020-11-12 11:40:12","timeLength":26}

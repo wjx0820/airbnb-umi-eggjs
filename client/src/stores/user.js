@@ -80,7 +80,8 @@ export default {
       });
       Toast.success('退出登录成功');
       localStorage.clear();
-      location.href = '/login?from=' + location.pathname;
+      // location.href = '/login?from=' + location.pathname;
+      location.hash = '#/login?from=' + location.pathname;
     },
   },
 };

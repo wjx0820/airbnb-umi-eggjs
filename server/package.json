@@ -1,5 +1,5 @@
 {
-  "name": "server-egg",
+  "name": "egg-server",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -32,8 +32,9 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-lession",
-    "stop": "egg-scripts stop --title=egg-server-lession",
+    "start": "egg-scripts start --daemon --title=egg-server",
+    "prod": "EGG_SERVER_ENV=prod egg-scripts start --title=egg-server",
+    "stop": "egg-scripts stop --title=egg-server",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",

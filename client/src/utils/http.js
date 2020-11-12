@@ -44,7 +44,8 @@ export default function Http({
           setResult && setResult(res.data);
         } else {
           if (res.status == 1001) {
-            location.href = '/login?from=' + location.pathname;
+            // location.href = '/login?from=' + location.pathname;
+            location.hash = '#/login?from=' + location.pathname;
             localStorage.clear();
           }
           Toast.fail(res.errMsg);
