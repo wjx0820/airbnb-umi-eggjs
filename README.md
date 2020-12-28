@@ -5,6 +5,8 @@
 ## Link
 
 http://jiexi.xyz
+用户名 admin
+密码 admin
 
 ## Stack
 
